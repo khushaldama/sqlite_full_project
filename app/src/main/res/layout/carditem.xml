@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#EDEBEB"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvbikename"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvbikedesc"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvbikeprice"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvbikesetcap"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvbikefullcap"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+
+            <ImageView
+                android:id="@+id/imgUpdate"
+                android:layout_width="37dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toEndOf="@+id/txtAge"
+                app:layout_constraintTop_toBottomOf="@+id/imgDetele"
+                app:srcCompat="@drawable/ic_baseline_update_24" />
+
+            <ImageView
+                android:id="@+id/imgDetele"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toEndOf="@+id/txtAge"
+                app:layout_constraintTop_toBottomOf="@+id/imgDetele"
+                app:srcCompat="@drawable/ic_baseline_delete_24" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
